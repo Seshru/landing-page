@@ -1,17 +1,19 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Nunito Sans', sans-serif
 }
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+
 
 header, footer, section {
-    height: 25vw;
+    height: 35vw;
 }
 
-main {
-    height: 50vw;
-}
 
-header {
+header, footer {
     background-color: #1f2937;
 }
 
@@ -31,7 +33,11 @@ nav a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
-    ;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 
 nav ul {
@@ -42,5 +48,113 @@ nav ul {
     padding-left: 100px;
 }
 
+.hero {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.hero h1 {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
 
+.hero h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #a5a7ab;
+    padding-top: 20px;
+}
 
+.hero img {
+    border-radius: 25%;
+    height: 300px;
+    width: 400px;
+}
+
+.hero > * { 
+    padding-bottom: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.about {
+    width: 40%;
+}
+
+.about h1 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;    
+}
+
+figure img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+figure {
+    padding: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.images {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+
+figcaption {
+    padding-top: 20px;
+}
+.portfolio-screens {
+    font-size: 18px;
+}
+
+.divider {
+    height: 20px;
+    background-color: #444444;
+    width: 100%;
+    border: 1px solid #444444;
+}
+
+#portfolio {
+    background-color: #e5e7eb;
+    margin-top: 0;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#portfolio h1 {
+    font-size: 36px;
+    padding-top: 10px;
+ 
+}
+
+h2 {
+    padding-bottom: 50px;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+i {
+    padding: 50px;
+}
+
+footer {
+    text-align: center;
+    color: #f9faf8;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
