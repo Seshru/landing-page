@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header, footer, section {
+    height: 25vw;
+}
+
+main {
+    height: 50vw;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+nav h3 {
+    color: #f9faf8;
+    font-size: 24px;
+    margin-left: -400px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    ;
+}
+
+nav ul {
+    margin-right: -300px;
+    justify-content: space-around;
+    display: flex;
+    gap: 40px;
+    padding-left: 100px;
+}
+
+
+
